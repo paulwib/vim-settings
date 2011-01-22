@@ -9,9 +9,14 @@ set number
 set hlsearch
 set autoindent
 
+" Backup directories to avoid .swp files everywhere
+set backupdir=/var/tmp/paul-vim-swap/
+set directory=/var/tmp/paul-vim-swap/
+
 " Key Mappings
 let mapleader = ","
 map <leader>f :FufFile<CR>
+map <leader>t :TlistToggle<CR>
 
 " Autocomplete options
 autocmd FileType python set omnifunc=pythoncomplete#Complete

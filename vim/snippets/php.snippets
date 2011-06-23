@@ -43,7 +43,7 @@ snippet doc_cp
 	 *
 	 * @package ${2:default}
 	 * @author ${3:`g:snips_author`}
-	**/${4}
+	 **/${4}
 # Class Variable - post doc
 snippet doc_vp
 	/**
@@ -64,11 +64,10 @@ snippet doc_c
 	/**
 	 * ${3:undocumented class}
 	 *
-	 * @packaged ${4:default}
+	 * @package ${4:default}
 	 * @author ${5:`g:snips_author`}
 	 **/
-	${1:}class ${2:}
-	{${6}
+	${1:}class ${2:}{${6}
 	} // END $1class $2
 # Constant Definition - post doc
 snippet doc_dp
@@ -106,8 +105,7 @@ snippet doc_f
 	 * @return ${5:void}
 	 * @author ${6:`g:snips_author`}
 	 **/
-	${1}function ${2}(${3})
-	{${7}
+	${1}function ${2}(${3}){${7}
 	}
 # Header
 snippet doc_h

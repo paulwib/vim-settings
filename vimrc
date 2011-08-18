@@ -1,6 +1,7 @@
 " View
+set t_Co=256
 syntax on
-colorscheme desert 
+colorscheme busy_bee
 set smarttab
 set tabstop=4
 set shiftwidth=4
@@ -15,8 +16,6 @@ set directory=/var/tmp/paul-vim-swap/
 
 " Key Mappings
 let mapleader = ","
-map <leader>f :FufFile<CR>
-map <leader>t :TlistToggle<CR>
 
 " Autocomplete options
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -29,3 +28,17 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 " snipmate config
 let g:snips_author = "Paul Willoughby <paul@fivetide.com>"
+
+" fuzzy finder config
+"
+" ,f opens fuzzy finder file
+map <leader>f :FufFile<CR>
+
+" taglist config
+"
+" ,t Opens tag list
+map <leader>t :TlistToggle<CR>
+" Do not highlight current tag
+let Tlist_Auto_Highlight_Tag = 0
+" One file at a time
+let Tlist_Show_One_File = 1

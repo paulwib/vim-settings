@@ -37,18 +37,17 @@ hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
 hi Comment 		   guifg=#737373 gui=none ctermfg=244
-hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
-hi Boolean         guifg=#b1d631 gui=none ctermfg=148
-hi String 		   guifg=#969696 gui=none ctermfg=148
-hi Identifier 	   guifg=#b1d631 gui=none ctermfg=148
-hi Function 	   guifg=#ffff00 gui=none ctermfg=255
-hi Type 		   guifg=#7e8aa2 gui=none ctermfg=103
+hi Boolean         guifg=#ff9800 gui=none ctermfg=208
+hi String 		   guifg=#b2b2b2 gui=none ctermfg=249
+hi Identifier 	   guifg=#b1d631 gui=none ctermfg=148 cterm=none
+hi Function 	   guifg=#ffff00 gui=none ctermfg=226
+hi Type 		   guifg=#87afaf gui=none ctermfg=109
 hi Statement 	   guifg=#7e8aa2 gui=none ctermfg=103
 hi Keyword		   guifg=#ff9800 gui=none ctermfg=208
-hi Constant 	   guifg=#ff9800 gui=none  ctermfg=208
+hi Constant 	   guifg=#ff9800 gui=none ctermfg=208
 hi Number		   guifg=#ff9800 gui=none ctermfg=208
 hi Special		   guifg=#ff9800 gui=none ctermfg=208
-hi PreProc 		   guifg=#faf4c6 gui=none ctermfg=230
+hi PreProc 		   guifg=#ffff5f gui=none ctermfg=227
 hi Todo            guifg=#ff9f00 guibg=#202020 gui=none
 
 " Code-specific colors

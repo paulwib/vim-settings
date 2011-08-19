@@ -1,5 +1,5 @@
 " View
-set t_Co=256
+"set t_Co=256
 syntax on
 colorscheme busy_bee
 set smarttab
@@ -37,8 +37,8 @@ map <leader>f :FufFile<CR>
 " taglist config
 "
 " ,t Opens tag list
-map <leader>t :TlistToggle<CR>
+"map <leader>t :TlistToggle<CR>
 " Do not highlight current tag
-let Tlist_Auto_Highlight_Tag = 0
+"let Tlist_Auto_Highlight_Tag = 0
 " One file at a time
-let Tlist_Show_One_File = 1
+"let Tlist_Show_One_File = 1

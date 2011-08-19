@@ -1,5 +1,5 @@
 " View
-"set t_Co=256
+set t_Co=256
 syntax on
 colorscheme busy_bee
 set smarttab

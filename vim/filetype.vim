@@ -8,7 +8,7 @@ endif
 
 augroup filetypedetect
 
- au! BufRead,BufNewFile *.md,*.mkd,*.markdown   setfiletype mkd
+ au! BufRead,BufNewFile *.md,*.mkd,*.mdwn,*.markdown   setfiletype mkd
  au! BufRead,BufNewFile *.json   setfiletype json
 
 augroup END

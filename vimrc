@@ -9,6 +9,7 @@ set expandtab
 set number
 set hlsearch
 set autoindent
+set ruler
 
 " Backup directories to avoid .swp files everywhere
 set backupdir=/var/tmp/paul-vim-swap/
